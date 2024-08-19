@@ -55,6 +55,7 @@ ROBOTSTXT_OBEY = False
 DOWNLOADER_MIDDLEWARES = {
     "zillowscraper.middlewares.ScrapeOpsFakeBrowserHeadersMiddleware": 400,
     #    "zillowscraper.middlewares.ZillowscraperDownloaderMiddleware": 543,
+    "scrapeops_scrapy_proxy_sdk.scrapeops_scrapy_proxy_sdk.ScrapeOpsScrapyProxySdk": 725,
 }
 
 # Enable or disable extensions
@@ -97,3 +98,4 @@ FEED_EXPORT_ENCODING = "utf-8"
 
 SCRAPEOPS_API_KEY = os.environ.get("SCRAPEOPS_API_KEY")
 SCRAPEOPS_FAKE_HEADERS_ENABLED = True
+SCRAPEOPS_PROXY_ENABLED = True
