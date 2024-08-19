@@ -1,0 +1,63 @@
+0={
+    "@type": "SingleFamilyResidence",
+    "@context": "http: //schema.org",
+    "name": "1505 W 68th St, Los Angeles, CA 90047",
+    "floorSize": {
+        "@type": "QuantitativeValue",
+        "@context": "http://schema.org",
+        "value": "1,196"
+    },
+    "address": {
+        "@type": "PostalAddress",
+        "@context": "http://schema.org",
+        "streetAddress": "1505 W 68th St",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "postalCode": "90047"
+    },
+    "geo": {
+        "@type": "GeoCoordinates",
+        "@context": "http://schema.org",
+        "latitude": 33.97805,
+        "longitude": -118.30271
+    },
+    "url": "https://www.zillow.com/homedetails/1505-W-68th-St-Los-Angeles-CA-90047/20935821_zpid/"
+}
+1={
+    "@type": "Event",
+    "@context": "http: //schema.org",
+    "name": "3D Tour Available - 1505 W 68th St",
+    "url": "https://www.zillow.com/homedetails/1505-W-68th-St-Los-Angeles-CA-90047/20935821_zpid/",
+    "image": "https://photos.zillowstatic.com/fp/451e374205280ef4e4c6b8949e9f36be-p_e.jpg",
+    "startDate": "2024-08-21",
+    "endDate": "2024-08-21",
+    "eventAttendanceMode": "https://schema.org/OnlineEventAttendanceMode",
+    "eventStatus": "https://schema.org/EventScheduled",
+    "location": [
+        {
+            "@type": "VirtualLocation",
+            "url": "https://www.zillow.com/homedetails/1505-W-68th-St-Los-Angeles-CA-90047/20935821_zpid/"
+        },
+        {
+            "@type": "Place",
+            "@context": "http://schema.org",
+            "name": "1505 W 68th St",
+            "address": {
+                "@type": "PostalAddress",
+                "@context": "http://schema.org",
+                "streetAddress": "1505 W 68th St",
+                "postalCode": "90047",
+                "addressLocality": "Los Angeles",
+                "addressRegion": "CA"
+            }
+        }
+    ],
+    "offers": {
+        "price": 725000,
+        "priceCurrency": "$",
+        "availability": "http://schema.org/InStock",
+        "url": "https://www.zillow.com/homedetails/1505-W-68th-St-Los-Angeles-CA-90047/20935821_zpid/",
+        "validFrom": "2024-08-21"
+    },
+    "performer": "Compass"
+}
